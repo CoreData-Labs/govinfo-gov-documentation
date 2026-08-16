@@ -33,7 +33,7 @@ jobs:
 
       # 🥼 STEP 3: Setup golang
       - name: Setup golang
-        uses: actions/setup-go@v6
+        uses: actions/setup-go@v7
         with:
           go-version-file: "go.mod" # 💡 Automatically use Go version specified in go.mod
       - run: go version # 🧪 Verify Go installation
